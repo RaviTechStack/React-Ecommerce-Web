@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.flex{
+  display: flex;
+}
+.flex-col{
+  display: flex;
+  flex-direction: column;
+}
+.center{
+  display: grid;
+  place-items: center;
+}
+.grid-two-column{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+.grid-four-row{
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+}
+.links{
+  height: fit-content;
+  text-decoration: none;
+  color: initial;
+
+}

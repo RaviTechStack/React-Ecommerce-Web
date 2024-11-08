@@ -1,0 +1,9 @@
+.features{
+    padding: 1rem 2rem;
+    padding-bottom: 5rem;
+    justify-content: space-evenly;
+}
+.feature-list{
+    justify-content: center;
+    gap: 6rem;
+}

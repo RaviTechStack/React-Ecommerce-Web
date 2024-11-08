@@ -1,0 +1,77 @@
+nav{
+    width: 100%;
+    height: fit-content;
+    padding: 1.5rem .6rem;
+    background-color: rgb(255, 255, 255);
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    /* box-shadow: 2px 2px 4px gray; */
+    color: black;
+    z-index: 100;
+    position: sticky;
+    top: 0;
+    right: 0;
+}
+.logo{
+    font-size: 1.8rem;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.search{
+    width: 40%;
+    height: 100%;
+}
+.search input{
+    width: 80%;
+    padding: .6rem .3rem;
+    border-radius: .6rem 0 0 .6rem;
+    border: 1px solid rgb(162, 162, 162);
+    outline: none;
+    background-color: rgb(217, 217, 217);
+    color: grey;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.search button{
+    padding: .6rem;
+    border: 1px solid rgb(162, 162, 162);
+    background-color: rgb(140, 149, 159);
+    border-radius: 0 .6rem .6rem 0;
+    font-weight: bolder;
+    color: black;
+}
+ul{
+    height: 100%;
+    display: flex;
+    gap: 2rem;
+}
+li{
+    color: rgb(0, 0, 0);
+    list-style: none;
+    font-size: 1.15rem;
+}
+.buttons{
+    display: flex;
+    gap: 1.2rem;
+    width: fit-content;
+    height: 100%;
+    align-items: center;
+}
+.cart-btn{
+    position: relative;
+    padding: .5rem;
+}
+.cart-btn span{
+    padding: 0rem .1rem;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    color: white;
+    right: .2rem;
+    border-radius: 100%;
+}
+.buttons i{
+   font-size: 1.6rem;
+   color: rgb(8, 8, 8);
+}

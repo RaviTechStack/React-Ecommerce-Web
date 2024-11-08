@@ -1,0 +1,154 @@
+.grid-Prod-Column{
+    display: grid;
+    grid-template-columns: 0.3fr 1fr;
+    width: 80%;
+    height: 100vh;
+    margin: 0 auto;
+}
+.grid-Prod-Column::-webkit-scrollbar{
+    display: none;
+}
+.sortingConatiner{
+    padding: 4rem 0;
+}
+.sortingConatiner h2{
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(28, 28, 28);
+    margin-bottom: .6rem;
+}
+.category-menu{
+    width: 100%;
+    height: fit-content;
+    display: grid;
+    row-gap: .5rem;
+    margin-bottom: 1.5rem;
+}
+.category-menu button{
+    width: 100%;
+    background-color: rgb(250, 250, 250);
+    padding-left: .5rem;
+    font-weight: 400;
+    color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.1rem;
+    padding: .3rem .6rem;
+    border: none;
+    outline: none;
+    text-align: left;
+}
+.company{
+    width: 100%;
+    height: fit-content;
+}
+.company-menu{
+    border: none;
+    outline: none;
+    width: 80%;
+    padding: .4rem .5rem;
+    text-transform: capitalize;
+    background-color: rgb(222, 222, 222);
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.colors-filter{
+    display: flex;
+    margin-top: 1.8rem;
+    gap: .23rem;
+    height: fit-content;
+    align-items: center;
+}
+.colors-filter p{
+    margin-right: .5rem;
+    color: grey;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.price-range{
+    margin-top: 2rem;
+    width: 100%;
+}
+.price-range h4{
+    font-size: 1.2rem;
+    color: rgb(35, 35, 35);
+    font-weight: 500;
+    margin-bottom: .3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.price-change{
+    width: 100%;
+    height: fit-content;
+    align-items: center;
+    gap: .2rem;
+}
+.price-change p{
+    font-size: 1.1rem;
+    color: rgb(122, 122, 122);
+}
+
+.prod-container{
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+}
+.prod-container::-webkit-scrollbar{
+    display: none;
+}
+.prodDisplay{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: .6rem 1rem;
+    
+}
+.sorting-btn{
+    width: 100%;
+    height: fit-content;
+    padding: 1rem .5rem;
+    gap: .4rem;
+}
+.grid-list-btn{
+    padding: .5rem;
+    font-weight: 500;
+    font-family: cursive;
+    background-color: rgb(237, 237, 237);
+    border: none;
+    border-radius: 5px;
+    margin: 0 .5rem;
+    outline: none;
+    color: rgb(58, 58, 58);
+}
+
+.sorting-btn form{
+    width: 70%;
+    height: fit-content;
+}
+.sorting-btn input{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    padding: .5rem .6rem;
+    outline: none;
+    border: 1px solid grey;
+    color: grey;
+    font-weight: 700;
+}
+.sorting-btn input::placeholder{
+    font-weight: 700;
+}
+.listShow{
+    width: 100%;
+    display: grid;
+    gap: .6rem;
+}
+.activeBtn{
+    background-color: black;
+    color: white;
+}
+.sorting-btn select{
+    padding: .2rem .3rem;
+
+}
+.sorting-btn option{
+    padding: .4rem .5rem;
+}

@@ -1,0 +1,49 @@
+
+.cart-item{
+    width: 80%;
+    background-color: whitesmoke;
+    box-shadow: 2px 2px 4px gray;
+    margin: .4rem auto;
+    padding: .6rem .2rem;
+}
+.prod{
+    width: 100%;
+    height: fit-content;
+    gap: .9rem;
+    /* background-color: blue; */
+}
+.prod figure{
+    width: 50%;
+    height: 100%;
+}
+.prod figure img{
+    width: 100%;
+    height: 100%;
+}
+.name-color{
+    gap: .4rem;
+    justify-content: center;
+}
+.cartQuantity{
+    gap: .5rem;
+    align-items: center;
+}
+.cartQuantity button{
+    padding: .5rem .7rem;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    background-color: rgb(228, 228, 228);
+    box-shadow: 1px 1px 2px gray;
+}
+.color{
+    width: 100%;
+    place-items: left;
+    align-items: center;
+    gap: .3rem;
+}
+.sml{
+    height: 1rem;
+    width: 1rem;
+}
+

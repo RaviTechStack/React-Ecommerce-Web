@@ -1,0 +1,92 @@
+.footerContainer{
+    padding: 2rem 1rem ;
+    background-color: black;
+    border-radius: .5rem .5rem 0 0;
+    color: white;
+    width: 100%;
+    height: fit-content;
+    cursor: pointer;
+}
+.grid-four-column{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.footerContainer p{
+    color: rgb(226, 226, 226);
+    opacity: .7;
+}
+.logo-about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo-about h2{
+    font-weight: 500;
+    font-size: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 1rem;
+}
+
+
+.contact-detail{
+    gap: .8rem;
+}
+.links-menu{
+    margin-left: 1.5rem;
+    padding-left: 1.5rem;
+}
+.links-menu ul{
+ gap: .8rem;
+}
+.links-menu ul li{
+    font-size: 1rem;
+    opacity: .7;
+    color: white;
+}
+.footerContainer p:hover, .links-menu ul li:hover{
+    opacity: 1;
+}
+.newsLetter{
+    justify-content: center;
+    gap: 2rem;
+}
+.newsLetter input{
+    width: 90%;
+    background-color: transparent;
+    border: none;
+    border: 1px solid white;
+    margin: .6rem;
+    padding: .4rem .2rem;
+     color: white;
+    font-style: italic;
+    font-weight: 400;
+
+}
+.newsLetter button{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-weight: 400;
+    font-style: italic;
+    margin-left: -2rem;
+}
+.newsLetter input::placeholder{
+    color: white;
+    font-style: italic;
+    font-weight: 400;
+}
+.heading{
+    color: white;
+    margin-bottom: 1.5rem;
+    font-weight: bolder;
+    font-size: 1rem;
+    opacity: 1;
+}
+.icons{
+    justify-content: space-between;
+    padding: 0 .6rem;
+}
+.icons i{
+    font-size: 1.5rem;
+}
